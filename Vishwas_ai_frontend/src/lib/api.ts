@@ -1,10 +1,14 @@
 // Vishwas AI API client
 const STORAGE_KEY = "vishwas_token";
 const BASE_KEY = "vishwas_api_base";
+const DEFAULT_API =
+  import.meta.env.VITE_API_BASE ||
+  "http://127.0.0.1:8000";
 
 export const getApiBase = (): string => {
-  if (typeof window === "undefined") return "http://127.0.0.1:8000";
-  return localStorage.getItem(BASE_KEY) || "http://127.0.0.1:8000";
+  if (typeof window === "undefined") return DEFAULT_API;
+
+  return localStorage.getItem(BASE_KEY) || DEFAULT_API;
 };
 export const setApiBase = (url: string) => {
   if (typeof window !== "undefined") localStorage.setItem(BASE_KEY, url);
