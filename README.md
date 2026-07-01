@@ -261,4 +261,6 @@ Open:
 
 ---
 
-"Because Every Business Deserves a Chance, and Every Chance Begins with Vishwas."
+<h2 align="center">
+  <strong>Because Every Business Deserves a Chance,<br />and Every Chance Begins with Vishwas.</strong>
+</h2>
