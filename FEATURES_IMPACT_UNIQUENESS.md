@@ -6,7 +6,7 @@ Vishwas AI is not only a scoring engine. It is an end-to-end credit intelligence
 
 ### What It Does
 
-Captures business signals from:
+Captures business signals from: 
 
 - GST records
 - UPI transactions
